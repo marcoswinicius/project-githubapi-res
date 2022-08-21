@@ -1,0 +1,106 @@
+#root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-family: Montserrat,sans-serif;
+}
+
+
+
+/* SEARCH FORM */
+img {
+ width: 50%;
+ background-color: none;
+}
+.img-img{
+  width: 50px;
+  background-color: none;
+}
+.container {
+  width: 100%;
+  max-width: 121rem;
+  margin: 0 auto;
+  padding: 0rem 2rem;
+}
+
+.s_form {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.s_form div:first-child {
+  max-width: 60rem;
+  width: 100%;
+  display: flex;
+  padding: 2rem;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #f6edfc;
+  flex-direction: column;
+}
+
+/* CARDS REPOSITÓRIO */
+.card {
+  background-color: red;
+}
+.cardsRepos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 3.2rem;
+    flex-wrap: wrap;
+    
+}
+
+.card_repo {
+  width: 100%;
+  max-width: 41.6rem;
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  align-items: flex-start;
+  box-shadow: #3c40434d 0 1px 2px, #3c404326 0 1px 3px 1px;
+  justify-content: flex-start;
+  gap: 2rem;
+  background-color: var(--primary-color);
+}
+
+.s_user {
+  display: block;
+}
+
+.s_user .repos_content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 3.2rem;
+  flex-wrap: wrap;
+}
+
+.repos_content {
+  display: flex;
+  align-items: center;
+}
+
+.form_group{
+  width: 100%;
+}
+
+
+
+
+
+
+
